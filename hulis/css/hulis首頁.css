@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+}
+
+/* header.header{
+    background-color: #0dbf8c;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-width: 1200px;
+    height: 60px;
+    box-sizing: border-box;
+    display: flex;
+    
+    
+  } */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0dbf8c;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li.right {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div.home_image {
+  background-image: url("../image/首頁圖.gif");
+  background-repeat: no-repeat;
+  height: 360px;
+  min-width: 1200px;
+  background-size: cover;
+  background-position: center center;
+}
+
+footer.footer {
+  background-color: #008080;
+  background-repeat: no-repeat;
+  min-width: 1200px;
+  padding: 20px 0;
+  height: 150px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+div.parent_container {
+  background-color: #20b2aa;
+  background-repeat: no-repeat;
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 0;
+  box-sizing: border-box;
+}
+
+div.parent_container aside.aside,
+div.parent_container main.main,
+div.parent_container div.sub_aside {
+  /* display: inline-block; */
+  vertical-align: top;
+  font-size: 1rem; /* 16px */
+  box-sizing: border-box;
+}
+/* div.parent_container aside.aside{
+    border: 1px solid blue;
+    width: 200px;
+    margin-right: 20px;
+  } */
+
+#rcorners1 {
+  border-radius: 30px 30px 0 0;
+  background: #67d0cc;
+  padding: 20px;
+  margin: 0;
+  width: 800px;
+  height: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#rcorners2 {
+  border-radius: 0 0 30px 30px;
+  background: #afeeee;
+  padding: 20px;
+  margin: 0;
+  width: 800px;
+  height: 340px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#rcorners3 {
+  border-radius: 30px;
+  background: #67d0cc;
+  padding: 20px;
+  margin: 125px;
+  width: 800px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#rcorners4 {
+  border-radius: 30px;
+  background: #67d0cc;
+  padding: 20px;
+  margin: 0;
+  width: 800px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#rcorners5 {
+  border-radius: 30px;
+  background: #67d0cc;
+  padding: 20px;
+  margin: 125px;
+  width: 800px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.circle1 {
+  border-radius: 50%;
+  background: #008183;
+  /* padding: 0; */
+  width: 170px;
+  height: 170px;
+  /* margin: -100px; */
+  position: relative;
+  top: -405px;
+  left: 250px;
+}
+
+p.circle2 {
+  border-radius: 50%;
+  background: #008183;
+  /* padding: 0; */
+  width: 170px;
+  height: 170px;
+  /* margin: -100px; */
+  position: relative;
+  top: -611px;
+  left: 515px;
+}
+
+p.circle3 {
+  border-radius: 50%;
+  background: #008183;
+  /* padding: 0; */
+  width: 170px;
+  height: 170px;
+  /* margin: -100px; */
+  position: relative;
+  top: -817px;
+  left: 650px;
+}
+/* div.parent_container div.sub_aside{
+    width: 200px;
+    border: 1px solid purple;
+    margin-left: 20px;
+  } */
