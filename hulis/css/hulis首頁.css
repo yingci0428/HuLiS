@@ -157,7 +157,7 @@ p.circle1 {
   height: 170px;
   /* margin: -100px; */
   position: relative;
-  top: -405px;
+  top: -388px;
   left: 250px;
 }
 
@@ -169,7 +169,7 @@ p.circle2 {
   height: 170px;
   /* margin: -100px; */
   position: relative;
-  top: -611px;
+  top: -594px;
   left: 515px;
 }
 
@@ -181,8 +181,32 @@ p.circle3 {
   height: 170px;
   /* margin: -100px; */
   position: relative;
-  top: -817px;
-  left: 750px;
+  top: -800px;
+  left: 774px;
+}
+
+h1 {
+  position: absolute;
+  top: 117%;
+  width: 96%;
+  text-align: center;
+  font-size: 24px;
+}
+
+h2 {
+  position: absolute;
+  top: 122%;
+  width: 96%;
+  text-align: center;
+  font-size: 24px;
+}
+
+h3 {
+  position: absolute;
+  top: 127%;
+  width: 96%;
+  text-align: center;
+  font-size: 24px;
 }
 /* div.parent_container div.sub_aside{
     width: 200px;
