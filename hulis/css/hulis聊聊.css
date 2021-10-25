@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0dbf8c;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li.right {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.money_img {
+  background-image: url("../image/聊聊圖.gif");
+  padding: 30px;
+  text-align: center;
+  background-repeat: no-repeat;
+  min-height: 360px;
+  min-width: 1200px;
+  background-size: contain;
+  background-position: center center;
+}
+
+.content {
+  background-color: #20b2aa;
+  background-repeat: no-repeat;
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 0;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+div.rcorners2 {
+  border-radius: 30px;
+  background: #afeeee;
+  padding: 20px;
+  margin: 0;
+  width: 800px;
+  height: 135px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.rcorners3 {
+  border-radius: 30px;
+  background: #afeeee;
+  padding: 20px;
+  margin: 40px;
+  width: 800px;
+  height: 135px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.rcorners4 {
+  border-radius: 30px;
+  background: #afeeee;
+  padding: 20px;
+  margin: 40px;
+  width: 800px;
+  height: 135px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.rcorners5 {
+  border-radius: 30px;
+  background: #afeeee;
+  padding: 20px;
+  margin: 40px;
+  width: 800px;
+  height: 135px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer.footer {
+  background-color: #008080;
+  background-repeat: no-repeat;
+  min-width: 1200px;
+  padding: 20px 0;
+  height: 150px;
+  box-sizing: border-box;
+  text-align: center;
+}
