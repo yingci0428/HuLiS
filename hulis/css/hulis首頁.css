@@ -31,7 +31,7 @@ li a {
 
 div.home_image {
   background-image: url("../image/首頁圖.gif");
-  padding: 30px;
+  /* padding: 30px; */
   text-align: center;
   background-repeat: no-repeat;
   min-height: 360px;
@@ -340,7 +340,6 @@ article.card_2 h1 {
   font-size: 24px;
   text-align: center;
 }
-
 
 article.card_3 {
   border: 1px solid rgba(0, 0, 0, 0.125);
