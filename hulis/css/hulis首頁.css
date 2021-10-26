@@ -48,6 +48,7 @@ footer.footer {
   height: 150px;
   box-sizing: border-box;
   text-align: center;
+  font-size: 12px;
 }
 
 div.parent_container {
@@ -154,8 +155,8 @@ div.rcorners3 {
   color: white;
   font-size: 18px;
   position: relative;
-  top: 40px;
-  left: 795px;
+  top: 136px;
+  left: 531px;
 }
 
 /* 聊聊 */
@@ -184,7 +185,7 @@ div.rcorners4 {
 
 .dot_2 {
   position: relative;
-  top: -70px;
+  top: -300px;
   left: -100px;
 }
 
@@ -199,10 +200,11 @@ div.rcorners4 {
   color: white;
   font-size: 18px;
   position: relative;
-  top: 0px;
+  top: -224px;
   left: 531px;
 }
 
+/* 聊聊小標題 */
 .title_1 {
   background: #afeeee;
   max-width: 355px;
@@ -220,7 +222,7 @@ div.rcorners4 {
 
 .title_2 {
   background: #afeeee;
-  max-width: 220px;
+  max-width: 210px;
   border-radius: 30px;
   font-size: 24px;
   font-weight: bold;
@@ -231,6 +233,66 @@ div.rcorners4 {
   position: relative;
   top: 10px;
   left: 85px;
+}
+
+.title_3 {
+  background: #afeeee;
+  max-width: 480px;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.title_3 {
+  position: relative;
+  top: 10px;
+  left: 85px;
+}
+
+.title_4 {
+  background: #afeeee;
+  max-width: 350px;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.title_4 {
+  position: relative;
+  top: 10px;
+  left: 85px;
+}
+
+.title_5 {
+  background: #afeeee;
+  max-width: 250px;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.title_5 {
+  position: relative;
+  top: -220px;
+  left: 470px;
+}
+
+.title_6 {
+  background: #afeeee;
+  max-width: 400px;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.title_6 {
+  position: relative;
+  top: -215px;
+  left: 320px;
 }
 
 /* 好物 */
@@ -274,8 +336,8 @@ div.rcorners5 {
   color: white;
   font-size: 18px;
   position: relative;
-  top: 43px;
-  left: 795px;
+  top: -530px;
+  left: 531px;
 }
 
 /* 商品圖 */
