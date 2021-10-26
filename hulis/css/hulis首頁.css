@@ -135,7 +135,6 @@ div.rcorners3 {
   font-size: 24px;
   color: white;
   text-align: center;
-  
 }
 
 #rcorners3 {
@@ -144,14 +143,12 @@ div.rcorners3 {
   width: 65px;
   height: 40px;
   text-align: center;
-  
 }
 
 #rcorners3 a {
   text-decoration: none;
   color: white;
   font-size: 18px;
-  
 }
 
 /* 聊聊 */
@@ -192,6 +189,15 @@ div.rcorners4 {
   font-size: 18px;
 }
 
+.title_1 {
+  background: #afeeee;
+  max-width: 355px;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
 /* 好物 */
 div.rcorners5 {
   border-radius: 30px;
@@ -228,4 +234,29 @@ div.rcorners5 {
   text-decoration: none;
   color: white;
   font-size: 18px;
+}
+
+/* 商品圖 */
+article.card {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  width: 195px;
+  height: 220px;
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: #afeeee;
+}
+article.card a.img_block {
+  display: block;
+  font-size: 0;
+}
+article.card a.img_block > img {
+  max-width: 100%;
+}
+article.card div.content_block {
+  padding: 10px;
+}
+article.card h1 {
+  margin: 0 0 5px 0;
+  font-size: 24px;
+  text-align: center;
 }
