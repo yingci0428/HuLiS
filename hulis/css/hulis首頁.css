@@ -132,10 +132,26 @@ div.rcorners3 {
   background-color: #008183;
   border-radius: 50%;
   display: inline-block;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  
 }
 
-.rcorners3 {
+#rcorners3 {
+  border-radius: 30px 0px 30px 30px;
+  background: #008183;
+  width: 65px;
+  height: 40px;
   text-align: center;
+  
+}
+
+#rcorners3 a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  
 }
 
 /* 聊聊 */
@@ -157,10 +173,23 @@ div.rcorners4 {
   background-color: #008183;
   border-radius: 50%;
   display: inline-block;
+  font-size: 24px;
+  color: white;
+  text-align: center;
 }
 
-.rcorners4 {
+#rcorners4 {
+  border-radius: 30px 0px 30px 30px;
+  background: #008183;
+  width: 65px;
+  height: 40px;
   text-align: center;
+}
+
+#rcorners4 a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
 }
 
 /* 好物 */
@@ -182,8 +211,21 @@ div.rcorners5 {
   background-color: #008183;
   border-radius: 50%;
   display: inline-block;
+  font-size: 24px;
+  color: white;
+  text-align: center;
 }
 
-.rcorners5 {
+#rcorners5 {
+  border-radius: 30px 0px 30px 30px;
+  background: #008183;
+  width: 65px;
+  height: 40px;
   text-align: center;
+}
+
+#rcorners5 a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
 }
