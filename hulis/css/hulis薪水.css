@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0dbf8c;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li.right {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.money_img {
+  background-image: url("../image/薪資圖.gif");
+  /* padding: 30px; */
+  text-align: center;
+  background-repeat: no-repeat;
+  min-height: 360px;
+  min-width: 1200px;
+  background-size: contain;
+  background-position: center center;
+}
+
+.content {
+  background-color: #20b2aa;
+  background-repeat: no-repeat;
+  width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+svg {
+  height: 700px;
+  min-width: 500px;
+}
+
+footer.footer {
+  background-color: #008080;
+  background-repeat: no-repeat;
+  min-width: 1200px;
+  padding: 20px 0;
+  height: 150px;
+  box-sizing: border-box;
+  text-align: center;
+}

@@ -28,7 +28,7 @@ li a {
   text-decoration: none;
 }
 
-.money_img {
+.tallk_img {
   background-image: url("../image/聊聊圖.gif");
   /* padding: 30px; */
   text-align: center;
@@ -48,21 +48,21 @@ li a {
   padding: 40px;
 }
 
-h1{
+h1 {
   font-size: 18px;
   position: relative;
   top: -80px;
   left: 100px;
 }
 
-h2{
+h2 {
   font-size: 24px;
   position: relative;
   top: -90px;
   left: 115px;
 }
 
-.member_icon{
+.member_icon {
   position: relative;
   top: 5px;
   left: 10px;
