@@ -30,7 +30,7 @@ li a {
 
 .money_img {
   background-image: url("../image/聊聊圖.gif");
-  padding: 30px;
+  /* padding: 30px; */
   text-align: center;
   background-repeat: no-repeat;
   min-height: 360px;

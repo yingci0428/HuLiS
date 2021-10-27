@@ -10,7 +10,7 @@ ul {
   background-color: #0dbf8c;
   position: sticky;
   top: 0;
-  width: 100%;
+  min-width: 1200px;
 }
 
 li {
