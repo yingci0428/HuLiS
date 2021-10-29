@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
@@ -9,15 +13,25 @@ header {
   background-color: #0dbf8c;
   position: sticky;
   top: 0;
+  width: 100%;
+  min-width: 1200px;
+  z-index: 5;
+}
+
+ul{
+  /* border: 1px solid blue; */
   width: 1200px;
+  margin: 0 auto;
 }
 
-li {
-  float: left;
+
+
+.register {
+  vertical-align: middle;
 }
 
-.active_2 {
-  float: right;
+.book{
+  vertical-align: middle;
 }
 
 .active_2 {
@@ -26,6 +40,7 @@ li {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  float: right;
 }
 
 div.home_image {
@@ -35,8 +50,9 @@ div.home_image {
   background-repeat: no-repeat;
   min-height: 360px;
   min-width: 1200px;
-  background-size: contain;
+  background-size: 100% 100%;
   background-position: center center;
+  width: 100%;
 }
 
 footer.footer {
