@@ -80,7 +80,6 @@ div.container {
   background-repeat: no-repeat;
   width: 100%;
   margin: 0 auto;
-  box-sizing: border-box;
   padding: 40px;
   min-width: 1200px;
 }
@@ -129,7 +128,6 @@ div.container {
   border-radius: 50%;
   display: inline-block;
   padding: 15px;
-  
 }
 
 
@@ -138,36 +136,38 @@ div.container {
 
 /* 薪資 */
 div.rcorners3 {
+  border: 1px solid blue;
   border-radius: 30px;
   background: #67d0cc;
   padding: 20px;
-  margin: 125px;
+  margin: 125px auto;
   width: 800px;
   height: 300px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .dot_1 {
+  border: 1px solid red;
   height: 170px;
   width: 170px;
   background-color: #008183;
   border-radius: 50%;
   display: inline-block;
-  font-size: 24px;
   color: white;
   text-align: center;
+  padding: 5px;
 }
 
 .dot_1 {
+  vertical-align:text-top;
+  font-size: 24px;
   position: relative;
-  top: -1270px;
+  top: -1300px;
   left: -100px;
 }
 
 #rcorners3 {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   border-radius: 30px 0px 30px 30px;
   background: #008183;
   padding: 20px;
@@ -178,8 +178,8 @@ div.rcorners3 {
   color: white;
   font-size: 18px;
   position: relative;
-  top: -1208px;
-  left: 531px;
+  top: -1106px;
+  left: 524px;
 }
 
 /* 薪水各醫院 */
