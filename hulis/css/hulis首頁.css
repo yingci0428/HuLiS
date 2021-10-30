@@ -133,6 +133,11 @@ div.container {
 }
 
 /* 薪資 */
+.hospital{
+  position: relative;
+  top: -20px;
+}
+
 div.rcorners3 {
   /* border: 1px solid blue; */
   border-radius: 30px;
