@@ -680,7 +680,7 @@ article.card_1 {
 
 article.card_1 {
   position: relative;
-  top: 20px;
+  top: 10px;0px;
   left: 100px;
 }
 
@@ -711,7 +711,7 @@ article.card_2 {
 
 article.card_2 {
   position: relative;
-  top: -200px;
+  top: -210px;
   left: 320px;
 }
 
@@ -742,7 +742,7 @@ article.card_3 {
 
 article.card_3 {
   position: relative;
-  top: -425px;
+  top: -430px;
   left: 550px;
 }
 
