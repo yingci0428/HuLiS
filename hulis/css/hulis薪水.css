@@ -1,51 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 }
-ul {
+
+header {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
   overflow: hidden;
   background-color: #0dbf8c;
   position: sticky;
   top: 0;
   width: 100%;
+  min-width: 1200px;
+  z-index: 5;
+  height: 60px;
 }
 
-li {
-  float: left;
+ul{
+  /* border: 1px solid blue; */
+  width: 1200px;
+  margin: 0 auto;
 }
 
-li.right {
-  float: right;
+.logo{
+  /* border: 1px solid blue; */
+  margin: 5px;
+  width: 85px;
+  height: 55px;
 }
 
-li a {
-  display: block;
+.register {
+  vertical-align: middle;
+}
+
+.book{
+  vertical-align: middle;
+}
+
+.active_2 {
+  /* display: block; */
   color: white;
+  font-weight: bold;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  float: right;
 }
 
 .money_img {
-  background-image: url("../image/薪資圖.gif");
-  /* padding: 30px; */
-  text-align: center;
-  background-repeat: no-repeat;
-  min-height: 360px;
+  background-image:url("../image/薪資圖.gif");
+  /* border: 1px solid red; */
+  font-size: 0;
+  width: 100%;
   min-width: 1200px;
-  background-size: contain;
-  background-position: center center;
+  height: 360px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.content {
+
+
+div.container {
+  /* border: 1px solid red; */
   background-color: #20b2aa;
   background-repeat: no-repeat;
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
-  box-sizing: border-box;
   padding: 40px;
+  min-width: 1200px;
 }
 
 .svg {
@@ -105,14 +131,15 @@ li a {
   left: 250px;
 }
 
+
 footer.footer {
   background-color: #008080;
   background-repeat: no-repeat;
+  width: 100%;
   min-width: 1200px;
   padding: 20px 0;
   height: 150px;
   box-sizing: border-box;
   text-align: center;
+  font-size: 12px;
 }
-
-

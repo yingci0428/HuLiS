@@ -1,3 +1,4 @@
+@import url(./button.css);
 * {
   box-sizing: border-box;
 }
@@ -163,7 +164,7 @@ div.rcorners3 {
   vertical-align:text-top;
   font-size: 24px;
   position: relative;
-  top: -1300px;
+  top: -1315px;
   left: -100px;
 }
 
@@ -173,21 +174,8 @@ div.rcorners3 {
   /* font-weight: bold; */
 }
 
-#rcorners3 {
-  /* border: 1px solid red; */
-  border-radius: 30px 0px 30px 30px;
-  background: #008183;
-  padding: 20px;
-  width: 65px;
-  height: 40px;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-  position: relative;
-  top: -1104px;
-  left: 527px;
-}
+
+
 
 /* 薪水各醫院 */
 .hospital_1 {
@@ -512,48 +500,44 @@ div.rcorners3 {
 
 /* 聊聊 */
 div.rcorners4 {
+  /* border: 1px solid blue; */
   border-radius: 30px;
   background: #67d0cc;
   padding: 20px;
-  margin: 0;
+  margin: 125px auto;
   width: 800px;
   height: 300px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .dot_2 {
+  /* border: 1px solid red; */
   height: 170px;
   width: 170px;
   background-color: #008183;
   border-radius: 50%;
   display: inline-block;
-  font-size: 24px;
   color: white;
   text-align: center;
+  
+  
 }
 
 .dot_2 {
+  vertical-align:text-top;
+  font-size: 24px;
   position: relative;
-  top: -300px;
+  top: -330px;
   left: -100px;
 }
 
-#rcorners4 {
-  border-radius: 30px 0px 30px 30px;
-  background: #008183;
-  padding: 20px;
-  width: 65px;
-  height: 40px;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-  position: relative;
-  top: -224px;
-  left: 531px;
+.tallk{
+  padding: 0;
+  margin-top:-20px;
+  /* font-weight: bold; */
 }
+
+
 
 /* 聊聊小標題 */
 .title_1 {
@@ -648,48 +632,41 @@ div.rcorners4 {
 
 /* 好物 */
 div.rcorners5 {
+  /* border: 1px solid blue; */
   border-radius: 30px;
   background: #67d0cc;
   padding: 20px;
-  margin: 125px;
+  margin: 125px auto;
   width: 800px;
   height: 300px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .dot_3 {
+  /* border: 1px solid red; */
   height: 170px;
   width: 170px;
   background-color: #008183;
   border-radius: 50%;
   display: inline-block;
-  font-size: 24px;
   color: white;
   text-align: center;
 }
 
 .dot_3 {
+  vertical-align:text-top;
+  font-size: 24px;
   position: relative;
-  top: -600px;
+  top: -630px;
   left: -100px;
 }
 
-#rcorners5 {
-  border-radius: 30px 0px 30px 30px;
-  background: #008183;
-  padding: 20px;
-  width: 65px;
-  height: 40px;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  font-size: 18px;
-  position: relative;
-  top: -530px;
-  left: 531px;
+.good{
+  padding: 0;
+  margin-top:-20px;
+  /* font-weight: bold; */
 }
+
 
 /* 商品圖 */
 article.card_1 {
@@ -734,7 +711,7 @@ article.card_2 {
 
 article.card_2 {
   position: relative;
-  top: -150px;
+  top: -200px;
   left: 320px;
 }
 
