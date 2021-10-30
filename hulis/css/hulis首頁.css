@@ -1,4 +1,7 @@
 @import url(./button.css);
+@import url(./article.css);
+@import url(./tallk_title.css);
+@import url(./hospital_title.css);
 * {
   box-sizing: border-box;
 }
@@ -85,7 +88,7 @@ div.container {
   min-width: 1200px;
 }
 
-
+/* 專屬護理人的平台 */
 .rcorners1 {
   /* border: 1px solid red; */
   border-radius: 30px 30px 0 0;
@@ -100,8 +103,6 @@ div.container {
   text-align: center;
   font-weight: bold;
 }
-
-
 
 .rcorners2 {
   /* border: 1px solid blue; */
@@ -131,10 +132,6 @@ div.container {
   padding: 15px;
 }
 
-
-
-
-
 /* 薪資 */
 div.rcorners3 {
   /* border: 1px solid blue; */
@@ -156,8 +153,6 @@ div.rcorners3 {
   display: inline-block;
   color: white;
   text-align: center;
-  
-  
 }
 
 .dot_1 {
@@ -172,330 +167,6 @@ div.rcorners3 {
   padding: 0;
   margin-top:-20px;
   /* font-weight: bold; */
-}
-
-
-
-
-/* 薪水各醫院 */
-.hospital_1 {
-  background: #afeeee;
-  max-width: 200px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  padding: 5px;
-}
-
-.hospital_1 {
-  position: relative;
-  top: 5px;
-  left: 85px;
-}
-
-.hospital_2 {
-  background: #afeeee;
-  max-width: 120px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  padding: 5px;
-}
-
-.hospital_2 {
-  position: relative;
-  top: -20px;
-  left: 100px;
-}
-
-.hospital_3 {
-  background: #afeeee;
-  max-width: 120px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  padding: 5px;
-}
-
-.hospital_3 {
-  position: relative;
-  top: -60px;
-  left: 145px;
-}
-
-.hospital_4 {
-  background: #afeeee;
-  max-width: 120px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  padding: 5px;
-}
-
-.hospital_4 {
-  position: relative;
-  top: -95px;
-  left: 110px;
-}
-
-.hospital_5 {
-  background: #afeeee;
-  max-width: 120px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  padding: 5px;
-}
-
-.hospital_5 {
-  position: relative;
-  top: -130px;
-  left: 85px;
-}
-
-.hospital_6 {
-  background: #afeeee;
-  max-width: 140px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  padding: 5px;
-}
-
-.hospital_6 {
-  position: relative;
-  top: -170px;
-  left: 150px;
-}
-
-.hospital_7 {
-  background: #afeeee;
-  max-width: 120px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  padding: 5px;
-}
-
-.hospital_7 {
-  position: relative;
-  top: -350px;
-  left: 220px;
-}
-
-.hospital_8 {
-  background: #afeeee;
-  max-width: 120px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  padding: 5px;
-}
-
-.hospital_8 {
-  position: relative;
-  top: -260px;
-  left: 100px;
-}
-
-.hospital_9 {
-  background: #afeeee;
-  max-width: 120px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  padding: 5px;
-}
-
-.hospital_9 {
-  position: relative;
-  top: -405px;
-  left: 370px;
-}
-
-.hospital_10 {
-  background: #afeeee;
-  max-width: 120px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  padding: 5px;
-}
-
-.hospital_10 {
-  position: relative;
-  top: -570px;
-  left: 280px;
-}
-
-.hospital_11 {
-  background: #afeeee;
-  max-width: 120px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  padding: 5px;
-}
-
-.hospital_11 {
-  position: relative;
-  top: -585px;
-  left: 260px;
-}
-
-.hospital_12 {
-  background: #afeeee;
-  max-width: 160px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  padding: 5px;
-}
-
-.hospital_12 {
-  position: relative;
-  top: -610px;
-  left: 210px;
-}
-
-.hospital_13 {
-  background: #afeeee;
-  max-width: 120px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  padding: 5px;
-}
-
-.hospital_13 {
-  position: relative;
-  top: -650px;
-  left: 270px;
-}
-
-.hospital_14 {
-  background: #afeeee;
-  max-width: 120px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  padding: 5px;
-}
-
-.hospital_14 {
-  position: relative;
-  top: -670px;
-  left: 220px;
-}
-
-.hospital_15 {
-  background: #afeeee;
-  max-width: 200px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  padding: 5px;
-}
-
-.hospital_15 {
-  position: relative;
-  top: -750px;
-  left: 340px;
-}
-
-.hospital_16 {
-  background: #afeeee;
-  max-width: 120px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  padding: 5px;
-}
-
-.hospital_16 {
-  position: relative;
-  top: -950px;
-  left: 380px;
-}
-
-.hospital_17 {
-  background: #afeeee;
-  max-width: 200px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  padding: 5px;
-}
-
-.hospital_17 {
-  position: relative;
-  top: -1035px;
-  left: 485px;
-}
-
-.hospital_18 {
-  background: #afeeee;
-  max-width: 260px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  padding: 5px;
-}
-
-.hospital_18 {
-  position: relative;
-  top: -1050px;
-  left: 370px;
-}
-
-.hospital_19 {
-  background: #afeeee;
-  max-width: 170px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  padding: 5px;
-}
-
-.hospital_19 {
-  position: relative;
-  top: -990px;
-  left: 485px;
-}
-
-.hospital_20 {
-  background: #afeeee;
-  max-width: 200px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  padding: 5px;
-}
-
-.hospital_20 {
-  position: relative;
-  top: -1125px;
-  left: 470px;
 }
 
 /* 聊聊 */
@@ -519,8 +190,6 @@ div.rcorners4 {
   display: inline-block;
   color: white;
   text-align: center;
-  
-  
 }
 
 .dot_2 {
@@ -535,99 +204,6 @@ div.rcorners4 {
   padding: 0;
   margin-top:-20px;
   /* font-weight: bold; */
-}
-
-
-
-/* 聊聊小標題 */
-.title_1 {
-  background: #afeeee;
-  max-width: 355px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.title_1 {
-  position: relative;
-  top: 5px;
-  left: 85px;
-}
-
-.title_2 {
-  background: #afeeee;
-  max-width: 210px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.title_2 {
-  position: relative;
-  top: 10px;
-  left: 85px;
-}
-
-.title_3 {
-  background: #afeeee;
-  max-width: 480px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.title_3 {
-  position: relative;
-  top: 10px;
-  left: 85px;
-}
-
-.title_4 {
-  background: #afeeee;
-  max-width: 350px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.title_4 {
-  position: relative;
-  top: 10px;
-  left: 85px;
-}
-
-.title_5 {
-  background: #afeeee;
-  max-width: 250px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.title_5 {
-  position: relative;
-  top: -220px;
-  left: 470px;
-}
-
-.title_6 {
-  background: #afeeee;
-  max-width: 400px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.title_6 {
-  position: relative;
-  top: -215px;
-  left: 320px;
 }
 
 /* 好物 */
@@ -665,99 +241,4 @@ div.rcorners5 {
   padding: 0;
   margin-top:-20px;
   /* font-weight: bold; */
-}
-
-
-/* 商品圖 */
-article.card_1 {
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  width: 195px;
-  height: 220px;
-  border-radius: 30px;
-  overflow: hidden;
-  background-color: #afeeee;
-}
-
-article.card_1 {
-  position: relative;
-  top: 10px;
-  left: 100px;
-}
-
-article.card_1 a.img_block {
-  display: block;
-  font-size: 0;
-}
-article.card_1 a.img_block > img {
-  max-width: 100%;
-}
-article.card_1 div.content_block {
-  padding: 10px;
-}
-article.card_1 h1 {
-  margin: 0 0 5px 0;
-  font-size: 24px;
-  text-align: center;
-}
-
-article.card_2 {
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  width: 195px;
-  height: 220px;
-  border-radius: 30px;
-  overflow: hidden;
-  background-color: #afeeee;
-}
-
-article.card_2 {
-  position: relative;
-  top: -210px;
-  left: 320px;
-}
-
-article.card_2 a.img_block {
-  display: block;
-  font-size: 0;
-}
-article.card_2 a.img_block > img {
-  max-width: 100%;
-}
-article.card_2 div.content_block {
-  padding: 10px;
-}
-article.card_2 h1 {
-  margin: 0 0 5px 0;
-  font-size: 24px;
-  text-align: center;
-}
-
-article.card_3 {
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  width: 195px;
-  height: 220px;
-  border-radius: 30px;
-  overflow: hidden;
-  background-color: #afeeee;
-}
-
-article.card_3 {
-  position: relative;
-  top: -430px;
-  left: 550px;
-}
-
-article.card_3 a.img_block {
-  display: block;
-  font-size: 0;
-}
-article.card_3 a.img_block > img {
-  max-width: 100%;
-}
-article.card_3 div.content_block {
-  padding: 10px;
-}
-article.card_3 h1 {
-  margin: 0 0 5px 0;
-  font-size: 24px;
-  text-align: center;
 }

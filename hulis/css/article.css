@@ -1,0 +1,94 @@
+/* 商品圖 */
+article.card_1 {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    width: 195px;
+    height: 220px;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #afeeee;
+  }
+  
+  article.card_1 {
+    position: relative;
+    top: 10px;
+    left: 100px;
+  }
+  
+  article.card_1 a.img_block {
+    display: block;
+    font-size: 0;
+  }
+  article.card_1 a.img_block > img {
+    max-width: 100%;
+  }
+  article.card_1 div.content_block {
+    padding: 10px;
+  }
+  article.card_1 h1 {
+    margin: 0 0 5px 0;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  article.card_2 {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    width: 195px;
+    height: 220px;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #afeeee;
+  }
+  
+  article.card_2 {
+    position: relative;
+    top: -210px;
+    left: 320px;
+  }
+  
+  article.card_2 a.img_block {
+    display: block;
+    font-size: 0;
+  }
+  article.card_2 a.img_block > img {
+    max-width: 100%;
+  }
+  article.card_2 div.content_block {
+    padding: 10px;
+  }
+  article.card_2 h1 {
+    margin: 0 0 5px 0;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  article.card_3 {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    width: 195px;
+    height: 220px;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #afeeee;
+  }
+  
+  article.card_3 {
+    position: relative;
+    top: -430px;
+    left: 550px;
+  }
+  
+  article.card_3 a.img_block {
+    display: block;
+    font-size: 0;
+  }
+  article.card_3 a.img_block > img {
+    max-width: 100%;
+  }
+  article.card_3 div.content_block {
+    padding: 10px;
+  }
+  article.card_3 h1 {
+    margin: 0 0 5px 0;
+    font-size: 24px;
+    text-align: center;
+  }
+  

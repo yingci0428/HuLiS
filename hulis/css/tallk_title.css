@@ -1,0 +1,90 @@
+/* 聊聊小標題 */
+.title_1 {
+    background: #afeeee;
+    max-width: 355px;
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .title_1 {
+    position: relative;
+    top: 5px;
+    left: 85px;
+  }
+  
+  .title_2 {
+    background: #afeeee;
+    max-width: 210px;
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .title_2 {
+    position: relative;
+    top: 10px;
+    left: 85px;
+  }
+  
+  .title_3 {
+    background: #afeeee;
+    max-width: 480px;
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .title_3 {
+    position: relative;
+    top: 10px;
+    left: 85px;
+  }
+  
+  .title_4 {
+    background: #afeeee;
+    max-width: 350px;
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .title_4 {
+    position: relative;
+    top: 10px;
+    left: 85px;
+  }
+  
+  .title_5 {
+    background: #afeeee;
+    max-width: 250px;
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .title_5 {
+    position: relative;
+    top: -220px;
+    left: 470px;
+  }
+  
+  .title_6 {
+    background: #afeeee;
+    max-width: 400px;
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .title_6 {
+    position: relative;
+    top: -215px;
+    left: 320px;
+  }
