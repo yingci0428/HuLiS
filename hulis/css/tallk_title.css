@@ -6,12 +6,14 @@
     font-size: 24px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
+    padding: 5px;
   }
   
   .title_1 {
     position: relative;
     top: 5px;
-    left: 85px;
+    left: 0px;
   }
   
   .title_2 {
@@ -21,12 +23,14 @@
     font-size: 24px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
+    padding: 5px;
   }
   
   .title_2 {
     position: relative;
-    top: 10px;
-    left: 85px;
+    top: 25px;
+    left: 0px;
   }
   
   .title_3 {
@@ -36,12 +40,14 @@
     font-size: 24px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
+    padding: 5px;
   }
   
   .title_3 {
     position: relative;
-    top: 10px;
-    left: 85px;
+    top: 45px;
+    left: 0px;
   }
   
   .title_4 {
@@ -51,12 +57,14 @@
     font-size: 24px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
+    padding: 5px;
   }
   
   .title_4 {
     position: relative;
-    top: 10px;
-    left: 85px;
+    top: 65px;
+    left: 0px;
   }
   
   .title_5 {
@@ -66,12 +74,14 @@
     font-size: 24px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
+    padding: 5px;
   }
   
   .title_5 {
     position: relative;
-    top: -220px;
-    left: 470px;
+    top: -163px;
+    left: 365px;
   }
   
   .title_6 {
@@ -81,10 +91,12 @@
     font-size: 24px;
     font-weight: bold;
     text-align: center;
+    margin: 0;
+    padding: 5px;
   }
   
   .title_6 {
     position: relative;
-    top: -215px;
-    left: 320px;
+    top: -143px;
+    left: 220px;
   }

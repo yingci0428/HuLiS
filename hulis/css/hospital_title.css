@@ -7,12 +7,14 @@
     font-weight: bold;
     text-align: center;
     padding: 5px;
+    margin: 0;
   }
   
   .hospital_1 {
+    /* border: 1px solid blue; */
     position: relative;
     top: 5px;
-    left: 85px;
+    left: 0px;
   }
   
   .hospital_2 {
@@ -23,12 +25,13 @@
     font-weight: bold;
     text-align: center;
     padding: 5px;
+    margin: 0;
   }
   
   .hospital_2 {
     position: relative;
-    top: -20px;
-    left: 100px;
+    top: 10px;
+    left: 0px;
   }
   
   .hospital_3 {
@@ -39,12 +42,13 @@
     font-weight: bold;
     text-align: center;
     padding: 5px;
+    margin: 0;
   }
   
   .hospital_3 {
     position: relative;
-    top: -60px;
-    left: 145px;
+    top: 15px;
+    left: 0px;
   }
   
   .hospital_4 {
@@ -55,12 +59,13 @@
     font-weight: bold;
     text-align: center;
     padding: 5px;
+    margin: 0;
   }
   
   .hospital_4 {
     position: relative;
-    top: -95px;
-    left: 110px;
+    top: 20px;
+    left: 0px;
   }
   
   .hospital_5 {
@@ -71,12 +76,13 @@
     font-weight: bold;
     text-align: center;
     padding: 5px;
+    margin: 0;
   }
   
   .hospital_5 {
     position: relative;
-    top: -130px;
-    left: 85px;
+    top: 25px;
+    left: 0px;
   }
   
   .hospital_6 {
@@ -87,12 +93,13 @@
     font-weight: bold;
     text-align: center;
     padding: 5px;
+    margin: 0;
   }
   
   .hospital_6 {
     position: relative;
-    top: -170px;
-    left: 150px;
+    top: -205px;
+    left: 205px;
   }
   
   .hospital_7 {
@@ -103,12 +110,13 @@
     font-weight: bold;
     text-align: center;
     padding: 5px;
+    margin: 0;
   }
   
   .hospital_7 {
     position: relative;
-    top: -350px;
-    left: 220px;
+    top: -200px;
+    left: 125px;
   }
   
   .hospital_8 {
@@ -119,12 +127,13 @@
     font-weight: bold;
     text-align: center;
     padding: 5px;
+    margin: 0;
   }
   
   .hospital_8 {
     position: relative;
-    top: -260px;
-    left: 100px;
+    top: -195px;
+    left: 125px;
   }
   
   .hospital_9 {
@@ -135,12 +144,13 @@
     font-weight: bold;
     text-align: center;
     padding: 5px;
+    margin: 0;
   }
   
   .hospital_9 {
     position: relative;
-    top: -405px;
-    left: 370px;
+    top: -190px;
+    left: 125px;
   }
   
   .hospital_10 {
@@ -151,12 +161,13 @@
     font-weight: bold;
     text-align: center;
     padding: 5px;
+    margin: 0;
   }
   
   .hospital_10 {
     position: relative;
-    top: -570px;
-    left: 280px;
+    top: -185px;
+    left: 125px;
   }
   
   .hospital_11 {
@@ -167,12 +178,13 @@
     font-weight: bold;
     text-align: center;
     padding: 5px;
+    margin: 0;
   }
   
   .hospital_11 {
     position: relative;
-    top: -585px;
-    left: 260px;
+    top: -415px;
+    left: 350px;
   }
   
   .hospital_12 {
@@ -183,12 +195,13 @@
     font-weight: bold;
     text-align: center;
     padding: 5px;
+    margin: 0;
   }
   
   .hospital_12 {
     position: relative;
-    top: -610px;
-    left: 210px;
+    top: -410px;
+    left: 250px;
   }
   
   .hospital_13 {
@@ -199,12 +212,13 @@
     font-weight: bold;
     text-align: center;
     padding: 5px;
+    margin: 0;
   }
   
   .hospital_13 {
     position: relative;
-    top: -650px;
-    left: 270px;
+    top: -405px;
+    left: 250px;
   }
   
   .hospital_14 {
@@ -215,12 +229,13 @@
     font-weight: bold;
     text-align: center;
     padding: 5px;
+    margin: 0;
   }
   
   .hospital_14 {
     position: relative;
-    top: -670px;
-    left: 220px;
+    top: -400px;
+    left: 250px;
   }
   
   .hospital_15 {
@@ -231,12 +246,13 @@
     font-weight: bold;
     text-align: center;
     padding: 5px;
+    margin: 0;
   }
   
   .hospital_15 {
     position: relative;
-    top: -750px;
-    left: 340px;
+    top: -395px;
+    left: 250px;
   }
   
   .hospital_16 {
@@ -247,12 +263,13 @@
     font-weight: bold;
     text-align: center;
     padding: 5px;
+    margin: 0;
   }
   
   .hospital_16 {
     position: relative;
-    top: -950px;
-    left: 380px;
+    top: -625px;
+    left: 475px;
   }
   
   .hospital_17 {
@@ -263,12 +280,13 @@
     font-weight: bold;
     text-align: center;
     padding: 5px;
+    margin: 0;
   }
   
   .hospital_17 {
     position: relative;
-    top: -1035px;
-    left: 485px;
+    top: -620px;
+    left: 415px;
   }
   
   .hospital_18 {
@@ -279,31 +297,16 @@
     font-weight: bold;
     text-align: center;
     padding: 5px;
+    margin: 0;
   }
   
   .hospital_18 {
     position: relative;
-    top: -1050px;
-    left: 370px;
+    top: -615px;
+    left: 375px;
   }
   
   .hospital_19 {
-    background: #afeeee;
-    max-width: 170px;
-    border-radius: 30px;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    padding: 5px;
-  }
-  
-  .hospital_19 {
-    position: relative;
-    top: -990px;
-    left: 485px;
-  }
-  
-  .hospital_20 {
     background: #afeeee;
     max-width: 200px;
     border-radius: 30px;
@@ -311,11 +314,29 @@
     font-weight: bold;
     text-align: center;
     padding: 5px;
+    margin: 0;
+  }
+  
+  .hospital_19 {
+    position: relative;
+    top: -610px;
+    left: 375px;
+  }
+  
+  .hospital_20 {
+    background: #afeeee;
+    max-width: 170px;
+    border-radius: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
   }
   
   .hospital_20 {
     position: relative;
-    top: -1125px;
-    left: 470px;
+    top: -605px;
+    left: 455px;
   }
   
