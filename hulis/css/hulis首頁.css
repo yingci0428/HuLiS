@@ -23,13 +23,13 @@ header {
   height: 60px;
 }
 
-ul{
+ul {
   /* border: 1px solid blue; */
   width: 1200px;
   margin: 0 auto;
 }
 
-.logo{
+.logo {
   /* border: 1px solid blue; */
   margin: 3px;
   padding: 5px;
@@ -41,7 +41,7 @@ ul{
   vertical-align: middle;
 }
 
-.book{
+.book {
   vertical-align: middle;
 }
 
@@ -56,7 +56,7 @@ ul{
 }
 
 div.home_image {
-  background-image:url("../image/首頁圖.gif");
+  background-image: url("../image/首頁圖.gif");
   /* border: 1px solid red; */
   font-size: 0;
   width: 100%;
@@ -91,7 +91,7 @@ div.container {
 }
 
 /* 專屬護理人的平台 */
-.text_1{
+.text_1 {
   /* border: 1px solid blue; */
   margin: 0 auto;
   padding: 20px;
@@ -140,19 +140,18 @@ div.container {
 }
 
 /* 薪資 */
-.text_2{
+.text_2 {
   /* border: 2px solid  blue; */
   margin: 0 auto;
-  
+
   padding: 20px;
 }
 
-.hospital{
-  /* border: 1px solid  black; */
+.hospital {
+  /* border: 1px solid black; */
   margin: 0px 0px 0px 80px;
-  width: 600px;
+  width: 700px;
   height: 235px;
-  
 }
 
 div.rcorners3 {
@@ -166,7 +165,6 @@ div.rcorners3 {
   display: block;
 }
 
-
 .dot_1 {
   /* border: 1px solid red; */
   height: 170px;
@@ -179,27 +177,27 @@ div.rcorners3 {
 }
 
 .dot_1 {
-  vertical-align:text-top;
+  vertical-align: text-top;
   font-size: 24px;
   position: relative;
   top: -210px;
   left: -100px;
 }
 
-.money{
+.money {
   padding: 0;
-  margin-top:-20px;
+  margin-top: -20px;
   /* font-weight: bold; */
 }
 
 /* 聊聊 */
-.text_3{
+.text_3 {
   /* border: 1px solid blue; */
   margin: 0 auto;
   padding: 20px;
 }
 
-.title{
+.title {
   /* border: 1px solid  black; */
   margin: 0px 0px 0px 80px;
   width: 600px;
@@ -229,27 +227,27 @@ div.rcorners4 {
 }
 
 .dot_2 {
-  vertical-align:text-top;
+  vertical-align: text-top;
   font-size: 24px;
   position: relative;
   top: -210px;
   left: -100px;
 }
 
-.tallk{
+.tallk {
   padding: 0;
-  margin-top:-20px;
+  margin-top: -20px;
   /* font-weight: bold; */
 }
 
 /* 好物 */
-.text_4{
+.text_4 {
   /* border: 1px solid blue; */
   margin: 0 auto;
   padding: 20px;
 }
 
-.card{
+.card {
   /* border: 1px solid  black; */
   margin: 0px 0px 0px 80px;
   width: 600px;
@@ -279,15 +277,15 @@ div.rcorners5 {
 }
 
 .dot_3 {
-  vertical-align:text-top;
+  vertical-align: text-top;
   font-size: 24px;
   position: relative;
   top: -210px;
   left: -100px;
 }
 
-.good{
+.good {
   padding: 0;
-  margin-top:-20px;
+  margin-top: -20px;
   /* font-weight: bold; */
 }
