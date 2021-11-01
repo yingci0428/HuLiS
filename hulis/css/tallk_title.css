@@ -1,102 +1,90 @@
 /* 聊聊小標題 */
 .title_1 {
-    background: #afeeee;
-    max-width: 355px;
-    border-radius: 30px;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 5px;
-  }
-  
-  .title_1 {
-    position: relative;
-    top: 5px;
-    left: 0px;
-  }
-  
-  .title_2 {
-    background: #afeeee;
-    max-width: 210px;
-    border-radius: 30px;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 5px;
-  }
-  
-  .title_2 {
-    position: relative;
-    top: 25px;
-    left: 0px;
-  }
-  
-  .title_3 {
-    background: #afeeee;
-    max-width: 480px;
-    border-radius: 30px;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 5px;
-  }
-  
-  .title_3 {
-    position: relative;
-    top: 45px;
-    left: 0px;
-  }
-  
-  .title_4 {
-    background: #afeeee;
-    max-width: 350px;
-    border-radius: 30px;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 5px;
-  }
-  
-  .title_4 {
-    position: relative;
-    top: 65px;
-    left: 0px;
-  }
-  
-  .title_5 {
-    background: #afeeee;
-    max-width: 250px;
-    border-radius: 30px;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 5px;
-  }
-  
-  .title_5 {
-    position: relative;
-    top: -163px;
-    left: 365px;
-  }
-  
-  .title_6 {
-    background: #afeeee;
-    max-width: 400px;
-    border-radius: 30px;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    margin: 0;
-    padding: 5px;
-  }
-  
-  .title_6 {
-    position: relative;
-    top: -143px;
-    left: 220px;
-  }
+  background: #afeeee;
+  max-width: 355px;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+}
+
+.title_1 {
+  display: inline-block;
+}
+
+.title_2 {
+  background: #afeeee;
+  max-width: 210px;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+}
+
+.title_2 {
+  display: inline-block;
+}
+
+.title_3 {
+  background: #afeeee;
+  max-width: 480px;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+}
+
+.title_3 {
+  display: inline-block;
+}
+
+.title_4 {
+  background: #afeeee;
+  max-width: 350px;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+}
+
+.title_4 {
+  display: inline-block;
+}
+
+.title_5 {
+  background: #afeeee;
+  max-width: 250px;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+}
+
+.title_5 {
+  display: inline-block;
+}
+
+.title_6 {
+  background: #afeeee;
+  max-width: 400px;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+}
+
+.title_6 {
+  display: inline-block;
+}
