@@ -19,13 +19,13 @@ header {
   height: 60px;
 }
 
-ul{
+ul {
   /* border: 1px solid blue; */
   width: 1200px;
   margin: 0 auto;
 }
 
-.logo{
+.logo {
   /* border: 1px solid blue; */
   margin: 3px;
   padding: 5px;
@@ -37,7 +37,7 @@ ul{
   vertical-align: middle;
 }
 
-.book{
+.book {
   vertical-align: middle;
 }
 
@@ -61,8 +61,6 @@ ul{
   min-width: 1200px;
 }
 
-
-
 div.rcorners {
   border: 1px solid red;
   border-radius: 30px;
@@ -74,6 +72,41 @@ div.rcorners {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.all_1 {
+  border: 1px solid black;
+  padding: 60px 60px 14px;
+  display: block;
+}
+
+.all_2 {
+  border: 1px;
+  display: block;
+  color: white;
+  background: #008080;
+  width: 300px;
+  height: 40px;
+  padding: 0px;
+  border-radius: 10px;
+  margin: 0px auto;
+  /* text-align: center; */
+}
+
+.all_2 :hover {
+  opacity: 0.6;
+  border-radius: 10px;
+  background: #20b2aa;
+  width: 300px;
+  height: 40px;
+  padding: 0px;
+  margin: 0px auto;
+  cursor: pointer;
+}
+
+.sign_log {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 footer.footer {
