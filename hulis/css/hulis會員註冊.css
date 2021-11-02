@@ -80,6 +80,59 @@ div.rcorners {
   display: block;
 }
 
+/* FB GOOGLE */
+.sign_up {
+  border: 1px solid blue;
+  height: 135px;
+}
+
+#FB {
+  /* border: 1px solid red; */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.FB_1 {
+  border: 1px solid black;
+  background-color: white;
+  float: left;
+}
+
+.FB {
+  /* border: 1px solid black; */
+  display: block;
+  background-color: #3a559f;
+  margin: 20px auto;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+#google {
+  /* border: 1px solid red; */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.google_1 {
+  border: 1px solid black;
+  background-color: white;
+  float: left;
+}
+
+.google {
+  /* border: 1px solid black; */
+  display: block;
+  background-color: #dd4b39;
+  margin: 20px auto;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+/* 註冊登入按鈕 */
 .all_2 {
   border: 1px;
   display: block;
