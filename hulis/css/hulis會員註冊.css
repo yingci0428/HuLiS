@@ -75,9 +75,10 @@ div.rcorners {
 }
 
 .all_1 {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 60px 60px 14px;
   display: block;
+  margin: 0px auto;
 }
 
 /* FB GOOGLE */
@@ -156,7 +157,7 @@ div.rcorners {
   height: 40px;
   padding: 0px;
   border-radius: 10px;
-  margin: 0px auto;
+  margin: 90px auto;
   /* text-align: center; */
 }
 
@@ -174,6 +175,48 @@ div.rcorners {
 .sign_log {
   font-size: 24px;
   font-weight: bold;
+}
+
+/* or */
+div.or {
+  /* border: 1px solid black; */
+  text-align: center;
+  color: gray;
+  /* font-weight: bold; */
+  margin-top: 20px;
+}
+
+/* 帳號密碼 */
+.log_in {
+  /* border: 1px solid blue; */
+  margin-top: 20px;
+}
+
+.email {
+  /* border: 1px solid red; */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#username {
+  border: 1px solid #008080;
+  border-radius: 5px;
+  height: 35px;
+  width: 385px;
+}
+
+.password {
+  /* border: 1px solid red; */
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#password {
+  border: 1px solid #008080;
+  border-radius: 5px;
+  height: 35px;
+  width: 385px;
 }
 
 footer.footer {
