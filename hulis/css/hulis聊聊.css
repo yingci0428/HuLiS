@@ -64,7 +64,7 @@ div.tallk_img {
 }
 
 div.container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   background-color: #20b2aa;
   background-repeat: no-repeat;
   width: 100%;
@@ -87,6 +87,16 @@ div.container {
   margin-top: 10px;
   width: 100%;
   max-width: 700px;
+}
+
+a.all_1 {
+  text-decoration: none;
+}
+
+a:hover {
+  //設定滑鼠移經的連結
+  text-decoration: underline;
+  color: #008080;
 }
 
 h1 {
