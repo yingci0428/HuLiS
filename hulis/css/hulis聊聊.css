@@ -93,7 +93,7 @@ a.all {
   text-decoration: none;
 }
 
-a.all:hover {
+.h1_1 :hover {
   //設定滑鼠移經的連結
   text-decoration: underline;
   color: #008080;
@@ -101,16 +101,20 @@ a.all:hover {
 
 h1 {
   /* border: 1px solid red; */
+  display: block;
   font-size: 18px;
   width: 100%;
   margin: 0 auto;
+  color: black;
 }
 
 h2 {
   /* border: 1px solid blue; */
+  display: block;
   font-size: 24px;
   width: 100%;
   margin: 0 auto;
+  color: black;
 }
 
 .member_icon {
@@ -130,6 +134,11 @@ div.rcorners {
   width: 800px;
   height: 90px;
   display: block;
+}
+
+p {
+  margin: 0 auto;
+  text-align: center;
 }
 
 footer.footer {
