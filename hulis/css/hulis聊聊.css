@@ -89,11 +89,11 @@ div.container {
   max-width: 700px;
 }
 
-a.all_1 {
+a.all {
   text-decoration: none;
 }
 
-a.all_1:hover {
+a.all:hover {
   //設定滑鼠移經的連結
   text-decoration: underline;
   color: #008080;
