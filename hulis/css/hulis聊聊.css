@@ -93,7 +93,7 @@ a.all_1 {
   text-decoration: none;
 }
 
-a:hover {
+a.all_1:hover {
   //設定滑鼠移經的連結
   text-decoration: underline;
   color: #008080;
