@@ -88,16 +88,16 @@ div.rcorners {
 }
 
 #FB {
-  /* border: 1px solid red; */
+  /* border: 1px solid white; */
   display: inline-block;
   vertical-align: middle;
+  margin-right: 107px;
 }
 
 .FB_1 {
-  border: none;
+  border: 1px solid white;
   background-color: white;
   float: left;
-  margin-right: 100px;
 }
 
 .FB {
@@ -118,16 +118,16 @@ div.rcorners {
 }
 
 #google {
-  /* border: 1px solid red; */
+  /* border: 1px solid white; */
   display: inline-block;
   vertical-align: middle;
+  margin-right: 117px;
 }
 
 .google_1 {
-  border: none;
+  border: 1px solid white;
   background-color: white;
   float: left;
-  margin-right: 100px;
 }
 
 .google {
