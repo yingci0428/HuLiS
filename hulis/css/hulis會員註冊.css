@@ -94,7 +94,7 @@ div.rcorners {
 }
 
 .FB_1 {
-  /* border: 2px solid black; */
+  border: none;
   background-color: white;
   float: left;
   margin-right: 100px;
@@ -124,7 +124,7 @@ div.rcorners {
 }
 
 .google_1 {
-  /* border: 2px solid black; */
+  border: none;
   background-color: white;
   float: left;
   margin-right: 100px;
