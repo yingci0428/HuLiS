@@ -19,13 +19,13 @@ header {
   height: 60px;
 }
 
-ul{
+ul {
   /* border: 1px solid blue; */
   width: 1200px;
   margin: 0 auto;
 }
 
-.logo{
+.logo {
   /* border: 1px solid blue; */
   margin: 3px;
   padding: 5px;
@@ -37,7 +37,7 @@ ul{
   vertical-align: middle;
 }
 
-.book{
+.book {
   vertical-align: middle;
 }
 
@@ -52,7 +52,7 @@ ul{
 }
 
 div.good_img {
-  background-image:url("../image/好物圖.gif");
+  background-image: url("../image/好物圖.gif");
   /* border: 1px solid red; */
   font-size: 0;
   width: 100%;
@@ -64,17 +64,73 @@ div.good_img {
 }
 
 div.container {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   background-color: #20b2aa;
   background-repeat: no-repeat;
   width: 100%;
   margin: 0 auto;
-  padding: 40px;
-  min-width: 1200px;
+  min-width: 576px;
 }
 
+/* 好物 */
+.text_4 {
+  border: 1px solid blue;
+  margin: 0 auto;
+  padding: 20px;
+  width: 800px;
+}
 
+.card {
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 100%;
+  min-width: 576px;
+  height: 100%;
+  padding: 30px;
+}
 
+div.rcorners5 {
+  border: 1px solid red;
+  border-radius: 30px;
+  background: #67d0cc;
+  padding: 20px;
+  margin: 0px auto;
+  width: 100%;
+  min-width: 576px;
+  height: 100%;
+  display: block;
+}
+
+/* 商品圖 */
+article.card_1 {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  width: 195px;
+  height: 220px;
+  border-radius: 30px;
+  overflow: hidden;
+  background-color: #afeeee;
+}
+
+article.card_1 {
+  display: inline-block;
+  margin: 10px;
+}
+
+article.card_1 a.img_block {
+  display: block;
+  font-size: 0;
+}
+article.card_1 a.img_block > img {
+  max-width: 100%;
+}
+article.card_1 div.content_block {
+  padding: 10px;
+}
+article.card_1 h1 {
+  margin: 0 0 5px 0;
+  font-size: 24px;
+  text-align: center;
+}
 
 footer.footer {
   background-color: #008080;
