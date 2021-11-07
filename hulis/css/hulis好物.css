@@ -122,13 +122,31 @@ article.card_1 a.img_block {
 article.card_1 a.img_block > img {
   max-width: 100%;
 }
-article.card_1 div.content_block {
-  padding: 10px;
-}
-article.card_1 h1 {
-  margin: 0 0 5px 0;
-  font-size: 24px;
+.content_block {
+  border: 1px solid red;
+  width: 100%;
   text-align: center;
+  display: inline-block;
+}
+
+.like {
+  border: none;
+  /* background-color: transparent; */
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  display: inline-block;
+  margin-right: 55px;
+}
+
+.shopcart {
+  border: none;
+  /* background-color: transparent; */
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  display: inline-block;
+  margin-right: 55px;
 }
 
 footer.footer {
