@@ -162,6 +162,7 @@ div.city {
 }
 
 .hp::-ms-expand {
+  border: 1px solid #008080;
   display: none;
 }
 
