@@ -64,7 +64,7 @@ div.good_img {
 }
 
 div.container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   background-color: #20b2aa;
   background-repeat: no-repeat;
   width: 100%;
@@ -74,23 +74,23 @@ div.container {
 
 /* 好物 */
 .text_4 {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   margin: 0 auto;
   padding: 20px;
   width: 800px;
 }
 
 .card {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: 0 auto;
   width: 100%;
   min-width: 576px;
   height: 100%;
-  padding: 30px;
+  text-align: center;
 }
 
 div.rcorners5 {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   border-radius: 30px;
   background: #67d0cc;
   padding: 20px;
@@ -104,7 +104,7 @@ div.rcorners5 {
 article.card_1 {
   border: 1px solid rgba(0, 0, 0, 0.125);
   width: 195px;
-  height: 220px;
+  height: 235px;
   border-radius: 30px;
   overflow: hidden;
   background-color: #afeeee;
@@ -123,30 +123,27 @@ article.card_1 a.img_block > img {
   max-width: 100%;
 }
 .content_block {
-  border: 1px solid red;
-  width: 100%;
+  /* border: 1px solid red; */
+  width: 50%;
   text-align: center;
   display: inline-block;
+  margin-top: 30px;
 }
 
 .like {
   border: none;
-  /* background-color: transparent; */
-  font-size: 16px;
+  background-color: transparent;
   cursor: pointer;
   width: 100%;
   display: inline-block;
-  margin-right: 55px;
 }
 
 .shopcart {
   border: none;
-  /* background-color: transparent; */
-  font-size: 16px;
+  background-color: transparent;
   cursor: pointer;
   width: 100%;
   display: inline-block;
-  margin-right: 55px;
 }
 
 footer.footer {
