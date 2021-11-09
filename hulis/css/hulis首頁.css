@@ -107,7 +107,13 @@ div.container {
   width: 100%;
   margin: 0 auto;
   padding: 40px;
-  min-width: 1200px;
+  max-width: 1200px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1200px) {
+  header {
+    display: flex;
+  }
 }
 
 /* 專屬護理人的平台 */
@@ -137,7 +143,7 @@ div.container {
   background: #afeeee;
   padding: 20px;
   margin: 0 auto;
-  width: 800px;
+  max-width: 800px;
   height: 340px;
   display: block;
 }
