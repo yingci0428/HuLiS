@@ -18,15 +18,9 @@ header {
   position: sticky;
   top: 0;
   width: 100%;
-  max-width: 1200px;
+  min-width: 1200px;
   z-index: 5;
   height: 60px;
-}
-
-@media screen and (min-width: 320px) {
-  header {
-    display: flex;
-  }
 }
 
 ul {
@@ -66,18 +60,11 @@ div.home_image {
   /* border: 1px solid red; */
   font-size: 0;
   width: 100%;
-  max-width: 1200px;
+  min-width: 1200px;
   height: 360px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 320px) {
-  div.home_image {
-    display: flex;
-  }
 }
 
 footer.footer {
@@ -85,19 +72,12 @@ footer.footer {
   background-color: #008080;
   background-repeat: no-repeat;
   width: 100%;
-  max-width: 1200px;
+  min-width: 1200px;
   padding: 20px 0;
   height: 150px;
   box-sizing: border-box;
   text-align: center;
   font-size: 12px;
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 320px) {
-  div.home_image {
-    display: flex;
-  }
 }
 
 div.container {
@@ -107,13 +87,7 @@ div.container {
   width: 100%;
   margin: 0 auto;
   padding: 40px;
-  max-width: 1200px;
-}
-
-@media screen and (min-width: 320px) {
-  div.home_image {
-    display: flex;
-  }
+  min-width: 1200px;
 }
 
 /* 專屬護理人的平台 */
