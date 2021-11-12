@@ -11,7 +11,7 @@
 
   <body>
     <header class="header">
-      <ul>
+      <ul class="header_log">
         <a href="./hulis首頁.html">
           <img src="./image/Logo.png" class="logo" />
         </a>
@@ -25,14 +25,14 @@
         <span class="hamburger-box">
           <span class="hamburger-inner"></span>
         </span>
-        <ul class="nav_list">
-          <li><a href="./hulis會員註冊.html">註冊 &frasl; 登入</a></li>
-          <li><a href="./hulis薪水.html">HuLis薪水</a></li>
-          <li><a href="./hulis聊聊.html">HuLis聊聊</a></li>
-          <li><a href="./hulis好物.html">HuLis好物</a></li>
-        </ul>
-        </ul>
-      </button>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li><a href="./hulis會員註冊.html">註冊 &frasl; 登入</a></li>
+                <li><a href="./hulis薪水.html">HuLiS薪水</a></li>
+                <li><a href="./hulis聊聊.html">HuLiS聊聊</a></li>
+                <li><a href="./hulis好物.html">HuLiS好物</a></li>
+            </ul>
+        </nav>
     </header>
 
     <div class="home_image"></div>
@@ -40,40 +40,43 @@
     <div class="container">
       <div class="text_1">
         <div class="rcorners1">專屬護理人的平台</div>
-
         <div class="rcorners2">
-          <span class="dot"
-            ><img src="./image/hospital-building.png" alt="#"
-          /></span>
-          <span class="dot"><img src="./image/chat.png" alt="#" /></span>
-          <span class="dot"><img src="./image/handbag.png" alt="#" /></span>
-          <br />全台各醫院新進人員薪資、福利<br />專屬護理人的討論區<br />實用、療癒小物
+          <div class="dot_box">
+            <span class="dot"
+              ><img src="./image/hospital-building.png" alt="#"
+            /></span>
+            <span class="dot"><img src="./image/chat.png" alt="#" /></span>
+            <span class="dot"><img src="./image/handbag.png" alt="#" /></span>
+          </div>
+          <div class="dot_box_1">
+            <br />全台各醫院新進人員薪資、福利<br />專屬護理人的討論區<br />實用、療癒小物
+          </div>
         </div>
       </div>
 
       <div class="text_2">
         <div class="rcorners3">
           <div class="hospital">
-            <p class="hospital_1">臺北榮民總醫院</p>
-            <p class="hospital_2">臺大醫院</p>
-            <p class="hospital_3">振興醫院</p>
-            <p class="hospital_4">林口長庚</p>
-            <p class="hospital_5">雙和醫院</p>
-            <p class="hospital_6">三軍總醫院</p>
-            <p class="hospital_7">亞東醫院</p>
-            <p class="hospital_8">萬芳醫院</p>
-            <p class="hospital_9">新光醫院</p>
-            <p class="hospital_10">台北長庚</p>
-            <p class="hospital_11">國泰醫院</p>
-            <p class="hospital_12">台北馬偕醫院</p>
-            <p class="hospital_13">義大醫院</p>
-            <p class="hospital_14">奇美醫院</p>
-            <p class="hospital_15">成大醫院</p>
-            <p class="hospital_16">高雄榮民總醫院</p>
-            <p class="hospital_17">臺中榮民總醫院</p>
-            <p class="hospital_18">中國醫藥大學附設醫院</p>
-            <p class="hospital_19">彰化基督教醫院</p>
-            <p class="hospital_20">花蓮慈濟醫院</p>
+            <p class="hospital_1 hospital_tag">臺北榮民總醫院</p>
+            <p class="hospital_tag hospital_2">臺大醫院</p>
+            <p class="hospital_tag hospital_3">振興醫院</p>
+            <p class="hospital_tag hospital_4">林口長庚</p>
+            <p class="hospital_tag hospital_5">雙和醫院</p>
+            <p class="hospital_tag hospital_6">三軍總醫院</p>
+            <p class="hospital_tag hospital_7">亞東醫院</p>
+            <p class="hospital_tag hospital_8">萬芳醫院</p>
+            <p class="hospital_tag hospital_9">新光醫院</p>
+            <p class="hospital_tag hospital_10">台北長庚</p>
+            <p class="hospital_tag hospital_11">國泰醫院</p>
+            <p class="hospital_tag hospital_12">台北馬偕醫院</p>
+            <p class="hospital_tag hospital_13">義大醫院</p>
+            <p class="hospital_tag hospital_14">奇美醫院</p>
+            <p class="hospital_tag hospital_15">成大醫院</p>
+            <p class="hospital_tag hospital_16">高雄榮民總醫院</p>
+            <p class="hospital_tag hospital_17">臺中榮民總醫院</p>
+            <p class="hospital_tag hospital_18">中國醫藥大學附設醫院</p>
+            <p class="hospital_tag hospital_19">彰化基督教醫院</p>
+            <p class="hospital_tag hospital_20">花蓮慈濟醫院</p>
           </div>
 
           <span class="dot_1">
@@ -174,6 +177,7 @@
         // hamburger icon 的切換
         $("button.hamburger").on("click", function () {
           $(this).toggleClass("is-active");
+          $('.nav_list').toggleClass("is-active");
         });
       });
     </script>

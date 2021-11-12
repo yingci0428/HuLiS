@@ -30,7 +30,7 @@ header {
   }
 }
 
-ul {
+.header_log {
   /* border: 1px solid blue; */
   width: 1200px;
   margin: 0 auto;
@@ -74,25 +74,35 @@ button.hamburger {
 
 @media screen and (min-width: 320px) and (max-width: 1140px) {
   button.hamburger {
-    display: inline-block;
+    display: flex;
   }
 }
 
-ul.nav_list {
+/* ul.nav {
   list-style: none;
   margin: 0;
   padding: 0;
-}
+} */
 ul.nav_list > li {
-  display: inline-block;
-  border: 1px solid blue;
+  border: 1px solid red;
+  list-style: none;
 }
 
-@media screen and (min-width: 320px) and (max-width: 1140px) {
-  ul.nav_list > li {
-    display: block;
-  }
+ul.nav_list > li > a {
+  display: block;
+  border: 1px solid blue;
+  text-decoration: none;
 }
+
+.nav_list:not(.is-active) {
+  display: none;
+}
+
+/* @media screen and (min-width: 320px) and (max-width: 1140px) {
+  ul.nav_list > li {
+    display: none;
+  }
+} */
 
 div.home_image {
   background-image: url("../image/首頁圖.gif");
@@ -107,7 +117,7 @@ div.home_image {
   background-size: cover;
 }
 
-@media screen and (min-width: 320px) and (max-width: 1200px) {
+@media screen and (min-width: 320px) and (max-width: 1140px) {
   div.home_image {
     display: flex;
   }
@@ -127,7 +137,7 @@ footer.footer {
   font-size: 12px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 1200px) {
+@media screen and (min-width: 320px) and (max-width: 1140px) {
   footer.footer {
     display: flex;
   }
@@ -143,12 +153,6 @@ div.container {
   padding: 40px;
 }
 
-/* @media screen and (min-width: 320px) and (max-width: 1200px) {
-  div.container {
-    display: flex;
-  }
-} */
-
 /* 專屬護理人的平台 */
 .text_1 {
   border: 1px solid blue;
@@ -156,12 +160,6 @@ div.container {
   margin: 0 auto;
   padding: 20px;
 }
-
-/* @media screen and (min-width: 320px) and (max-width: 1200px) {
-  .text_1 {
-    display: block;
-  }
-} */
 
 .rcorners1 {
   /* border: 1px solid red; */
@@ -178,49 +176,44 @@ div.container {
   font-weight: bold;
 }
 
-/* @media screen and (min-width: 320px) and (max-width: 1200px) {
-  .rcorners1 {
-    display: block;
-  }
-} */
-
 .rcorners2 {
   /* border: 1px solid blue; */
   border-radius: 0 0 30px 30px;
   background: #afeeee;
-  padding: 20px;
+  padding: 10px;
   margin: 0 auto;
   width: 100%;
   max-width: 800px;
-  height: 340px;
   display: block;
   text-align: center;
   font-size: 24px;
   font-weight: bold;
 }
 
-/* @media screen and (min-width: 320px) and (max-width: 1200px) {
-  .rcorners2 {
-    display: block;
-  }
-} */
-
 .dot {
   /* border: 1px solid blue; */
-  margin: 20px 20px;
-  height: 170px;
-  width: 170px;
+  width: 30%;
   background-color: #008183;
   border-radius: 50%;
-  display: inline-block;
+  display: block;
   padding: 15px;
 }
 
-@media screen and (min-width: 320px) {
-  .dot {
-    display: inline-block;
-    margin: 10px 10px;
-  }
+.dot img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.dot_box {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dot_box_1 {
+  margin: 0 auto;
 }
 
 /* 薪資 */
@@ -235,8 +228,15 @@ div.container {
 .hospital {
   /* border: 1px solid black; */
   margin: 0px 0px 0px 80px;
-  width: 670px;
-  height: 260px;
+  width: 100%;
+  max-width: 670px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  .hospital {
+    display: inline-block;
+    width: 100%;
+  }
 }
 
 div.rcorners3 {
@@ -262,6 +262,12 @@ div.rcorners3 {
   color: white;
   text-align: center;
 }
+
+/* @media screen and (min-width: 320px) and (max-width: 1140px) {
+  .dot_1 {
+    display: none;
+  }
+} */
 
 .dot_1 {
   vertical-align: text-top;

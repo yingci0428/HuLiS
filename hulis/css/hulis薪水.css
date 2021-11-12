@@ -105,6 +105,10 @@ div.taiwan {
   fill: #008080;
   transform: translate(-5px, -5px);
 }
+.shape.-active {
+  fill: #008080;
+  transform: translate(-5px, -5px);
+}
 
 div.city {
   /* border: 1px solid yellow; */
