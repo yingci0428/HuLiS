@@ -14,9 +14,14 @@ header {
   position: sticky;
   top: 0;
   width: 100%;
-  min-width: 1200px;
+  max-width: 1200px;
   z-index: 5;
-  height: 60px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  header {
+    display: flex;
+  }
 }
 
 ul {
@@ -56,11 +61,18 @@ div.good_img {
   /* border: 1px solid red; */
   font-size: 0;
   width: 100%;
-  min-width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
   height: 360px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  div.home_image {
+    display: flex;
+  }
 }
 
 div.container {
@@ -69,7 +81,7 @@ div.container {
   background-repeat: no-repeat;
   width: 100%;
   margin: 0 auto;
-  min-width: 1200px;
+  max-width: 1200px;
 }
 
 /* 好物 */
@@ -77,15 +89,15 @@ div.container {
   /* border: 1px solid blue; */
   margin: 0 auto;
   padding: 20px;
-  width: 800px;
+  width: 100%;
+  max-width: 800px;
 }
 
 .card {
   /* border: 1px solid black; */
   margin: 0 auto;
   width: 100%;
-  min-width: 576px;
-  height: 100%;
+  max-width: 1200px;
   text-align: center;
 }
 
@@ -96,25 +108,28 @@ div.rcorners5 {
   padding: 20px;
   margin: 0px auto;
   width: 100%;
-  height: 100%;
+  max-width: 1200px;
   display: block;
 }
 
 /* 商品圖 */
 article.card_1 {
   border: 1px solid rgba(0, 0, 0, 0.125);
-  width: 195px;
-  height: 235px;
+  width: 100%;
+  max-width: 195px;
   border-radius: 30px;
   overflow: hidden;
   background-color: #afeeee;
-}
-
-article.card_1 {
   display: inline-block;
   margin: 10px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  article.card_1 {
+    width: 100%;
+    max-width: 300px;
+  }
+}
 article.card_1 a.img_block {
   display: block;
   font-size: 0;
@@ -147,13 +162,20 @@ article.card_1 a.img_block > img {
 }
 
 footer.footer {
+  /* border: 1px solid red; */
   background-color: #008080;
   background-repeat: no-repeat;
   width: 100%;
-  min-width: 1200px;
-  padding: 20px 0;
-  height: 150px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
   box-sizing: border-box;
   text-align: center;
   font-size: 12px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  footer.footer {
+    display: flex;
+  }
 }
