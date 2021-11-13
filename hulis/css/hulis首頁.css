@@ -1,6 +1,5 @@
 @import url(./button.css);
 @import url(./article.css);
-@import url(./tallk_title.css);
 @import url(./hospital_title.css);
 @import url(./Hamburgers.css);
 * {
@@ -74,34 +73,54 @@ button.hamburger {
 
 @media screen and (min-width: 320px) and (max-width: 1140px) {
   button.hamburger {
-    display: flex;
+    display: inline-block;
   }
 }
 
-/* ul.nav {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-} */
-ul.nav_list > li {
+nav.main_nav {
   border: 1px solid red;
-  list-style: none;
-}
-
-ul.nav_list > li > a {
-  display: block;
-  border: 1px solid blue;
-  text-decoration: none;
-}
-
-.nav_list:not(.is-active) {
   display: none;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  transform: translateX(650px);
+  margin: 0 auto;
+  text-align: center;
 }
 
-/* @media screen and (min-width: 320px) and (max-width: 1140px) {
+ul.nav_list {
+  border: 1px solid blue;
+  /* display: none; */
+  list-style: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
   ul.nav_list > li {
-    display: none;
+    display: block;
   }
+}
+
+ul > li {
+  vertical-align: middle;
+  text-align: center;
+}
+ul > li > a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+}
+
+ul > li > a:hover {
+  color: #008183;
+  background-color: #afeeee;
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+}
+/* .nav_list:not(.is-active) {
+  display: none;
 } */
 
 div.home_image {
@@ -130,8 +149,7 @@ footer.footer {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px 0;
-  height: 150px;
+  padding: 20px;
   box-sizing: border-box;
   text-align: center;
   font-size: 12px;
@@ -151,6 +169,7 @@ div.container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px;
+  /* position: relative; */
 }
 
 /* 專屬護理人的平台 */
@@ -167,7 +186,6 @@ div.container {
   background: #67d0cc;
   padding: 5px;
   width: 100%;
-  height: 60px;
   max-width: 800px;
   display: block;
   margin: 0 auto;
@@ -227,60 +245,9 @@ div.container {
 
 .hospital {
   /* border: 1px solid black; */
-  margin: 0px 0px 0px 80px;
+  margin: 0 auto;
+  padding: 10px;
   width: 100%;
-  max-width: 670px;
-}
-
-@media screen and (min-width: 320px) and (max-width: 1140px) {
-  .hospital {
-    display: inline-block;
-    width: 100%;
-  }
-}
-
-div.rcorners3 {
-  /* border: 1px solid blue; */
-  border-radius: 30px;
-  background: #67d0cc;
-  padding: 20px;
-  margin: 0px auto;
-  width: 100%;
-  max-width: 800px;
-  height: 300px;
-  display: block;
-}
-
-.dot_1 {
-  /* border: 1px solid red; */
-  height: 170px;
-  width: 100%;
-  max-width: 170px;
-  background-color: #008183;
-  border-radius: 50%;
-  display: inline-block;
-  color: white;
-  text-align: center;
-}
-
-/* @media screen and (min-width: 320px) and (max-width: 1140px) {
-  .dot_1 {
-    display: none;
-  }
-} */
-
-.dot_1 {
-  vertical-align: text-top;
-  font-size: 24px;
-  position: relative;
-  top: -230px;
-  left: -100px;
-}
-
-.money {
-  padding: 0;
-  margin-top: -20px;
-  /* font-weight: bold; */
 }
 
 /* 聊聊 */
@@ -294,46 +261,21 @@ div.rcorners3 {
 
 .title {
   /* border: 1px solid black; */
-  margin: 0px 0px 0px 80px;
-  width: 700px;
-  height: 235px;
-}
-
-div.rcorners4 {
-  /* border: 1px solid blue; */
-  border-radius: 30px;
-  background: #67d0cc;
-  padding: 20px;
-  margin: 0px auto;
+  margin: 0 auto;
+  padding: 10px;
   width: 100%;
-  max-width: 800px;
-  height: 300px;
-  display: block;
 }
 
-.dot_2 {
-  /* border: 1px solid red; */
-  height: 170px;
-  width: 170px;
-  background-color: #008183;
-  border-radius: 50%;
-  display: inline-block;
-  color: white;
-  text-align: center;
-}
-
-.dot_2 {
-  vertical-align: text-top;
+/* 聊聊小標題 */
+.title_tag {
+  background: #67d0cc;
+  border-radius: 30px;
   font-size: 24px;
-  position: relative;
-  top: -210px;
-  left: -100px;
-}
-
-.tallk {
-  padding: 0;
-  margin-top: -20px;
-  /* font-weight: bold; */
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
 }
 
 /* 好物 */
@@ -347,44 +289,7 @@ div.rcorners4 {
 
 .card {
   /* border: 1px solid black; */
-  margin: 0px 0px 0px 80px;
-  width: 650px;
-  height: 235px;
-}
-
-div.rcorners5 {
-  /* border: 1px solid blue; */
-  border-radius: 30px;
-  background: #67d0cc;
-  padding: 20px;
-  margin: 0px auto;
+  margin: 0 auto;
+  padding: 10px;
   width: 100%;
-  max-width: 800px;
-  height: 300px;
-  display: block;
-}
-
-.dot_3 {
-  /* border: 1px solid red; */
-  height: 170px;
-  width: 170px;
-  background-color: #008183;
-  border-radius: 50%;
-  display: inline-block;
-  color: white;
-  text-align: center;
-}
-
-.dot_3 {
-  vertical-align: text-top;
-  font-size: 24px;
-  position: relative;
-  top: -210px;
-  left: -100px;
-}
-
-.good {
-  padding: 0;
-  margin-top: -20px;
-  /* font-weight: bold; */
 }
