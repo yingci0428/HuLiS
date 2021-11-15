@@ -189,8 +189,3 @@ footer.footer {
   outline: none;
   cursor: pointer;
 }
-
-@media screen and (min-width: 320px) and (max-width: 1140px) {
-  #go_top {
-  }
-}
