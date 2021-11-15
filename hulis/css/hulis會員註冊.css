@@ -101,9 +101,10 @@ div.rcorners {
   margin: 0 auto;
 }
 
-.FB_1 {
+img.FB_1 {
   background-color: white;
-  display: inline-block;
+  width: 100%;
+  display: block;
 }
 
 .google {
@@ -111,9 +112,10 @@ div.rcorners {
   margin: 0 auto;
 }
 
-.google_1 {
+img.google_1 {
   background-color: white;
-  display: inline-block;
+  width: 100%;
+  display: block;
 }
 
 /* 註冊登入按鈕 */
