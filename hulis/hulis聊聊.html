@@ -336,6 +336,7 @@
           </div>
         </a>
       </div>
+      <button type="button" id="go_top">↑</button>
     </div>
 
     <footer class="footer">
@@ -345,5 +346,23 @@
         但至少還有發薪日可以期待
       </p>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+      // DOM 載入完成後執行
+      $(function () {
+        // 點擊按鈕，頁面滑到最上方
+        $("#go_top").on("click", function (e) {
+          e.preventDefault();
+          $("html, body").animate(
+            {
+              scrollTop: 0,
+            },
+            750
+          );
+        });
+      });
+    </script>
   </body>
 </html>
