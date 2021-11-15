@@ -1,3 +1,5 @@
+@import url(./Hamburgers.css);
+
 * {
   box-sizing: border-box;
 }
@@ -9,7 +11,7 @@ body {
 header {
   list-style-type: none;
   margin: 0 auto;
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: #0dbf8c;
   position: sticky;
   top: 0;
@@ -24,7 +26,7 @@ header {
   }
 }
 
-ul {
+.header_log {
   /* border: 1px solid blue; */
   width: 1200px;
   margin: 0 auto;
@@ -46,7 +48,7 @@ ul {
   vertical-align: middle;
 }
 
-.active_2 {
+.active {
   /* display: block; */
   color: white;
   font-weight: bold;
@@ -54,6 +56,70 @@ ul {
   padding: 14px 16px;
   text-decoration: none;
   float: right;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  .active {
+    display: none;
+  }
+}
+
+button.hamburger {
+  display: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  button.hamburger {
+    display: inline-block;
+  }
+}
+
+nav.main_nav {
+  /* border: 1px solid red; */
+  display: none;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  z-index: -1;
+}
+
+ul.nav_list {
+  /* border: 1px solid blue; */
+  background-color: #67d0cc;
+
+  list-style: none;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 68px;
+  padding: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  ul.nav_list > li {
+    display: block;
+  }
+}
+
+ul > li {
+  vertical-align: middle;
+  text-align: center;
+}
+ul > li > a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+}
+
+ul > li > a:hover {
+  color: #008183;
+  background-color: #afeeee;
+  display: block;
+  padding: 5px;
+  font-weight: bold;
 }
 
 div.good_img {
