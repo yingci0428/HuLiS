@@ -161,6 +161,11 @@ article.card_1 a.img_block > img {
   display: inline-block;
 }
 
+p {
+  margin: 0 auto;
+  text-align: center;
+}
+
 footer.footer {
   /* border: 1px solid red; */
   background-color: #008080;
@@ -178,4 +183,20 @@ footer.footer {
   footer.footer {
     display: flex;
   }
+}
+
+#go_top {
+  width: 40px;
+  height: 40px;
+  background: none;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  color: white;
+  background-color: #0dbf8c;
+  border-radius: 50%;
+  font-size: 20px;
+  line-height: 1;
+  outline: none;
+  cursor: pointer;
 }
