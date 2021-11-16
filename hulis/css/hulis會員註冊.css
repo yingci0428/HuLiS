@@ -89,8 +89,14 @@ div.rcorners {
 
 /* FB GOOGLE */
 .social_up {
-  text-align: center;
-  display: block;
+  /* text-align: center; */
+  display: flex;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  .social_up {
+    display: flex;
+  }
 }
 
 a {
@@ -99,25 +105,29 @@ a {
 
 img.FB64 {
   background-color: white;
+  border-radius: 10%;
 }
 
 img.google64 {
   background-color: white;
+  border-radius: 10%;
 }
 
 button.FB {
   border: none;
-  margin-right: 50px;
+  /* margin-right: 50px; */
   background: none;
   cursor: pointer;
-  /* display: block; */
+  display: inline-block;
+  margin: 20px auto;
 }
 
 button.google {
   border: none;
   background: none;
   cursor: pointer;
-  /* display: block; */
+  display: inline-block;
+  margin: 20px auto;
 }
 
 /* 註冊登入按鈕 */
@@ -159,6 +169,11 @@ div.or {
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  div.or {
+  }
 }
 
 /* 帳號密碼 */
