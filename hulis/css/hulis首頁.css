@@ -197,6 +197,12 @@ div.container {
   font-weight: bold;
 }
 
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  .rcorners1 {
+    font-size: 18px;
+  }
+}
+
 .rcorners2 {
   /* border: 1px solid blue; */
   border-radius: 0 0 30px 30px;
@@ -227,20 +233,38 @@ div.container {
 }
 
 .dot_box {
+  width: 100%;
   max-width: 600px;
   margin: auto;
   display: flex;
   justify-content: space-between;
 }
 
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  .dot_box {
+    width: 100%;
+    max-width: 500px;
+  }
+}
+
 .dot_box_1 {
   margin: 0 auto;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  .dot_box_1 {
+    font-size: 12px;
+    font-weight: bold;
+  }
 }
 
 /* 薪資 */
 /* 左圖 */
 .dot_1 {
-  width: 100px;
+  width: 100%;
+  max-width: 100px;
   background-color: #008183;
   border-radius: 50%;
   display: block;
@@ -249,6 +273,19 @@ div.container {
   position: absolute;
   margin-top: -30px;
   margin-left: -50px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  .dot_1 {
+    width: 50%;
+    max-width: 100px;
+  }
+}
+
+.dot_1 img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .text_2 {
@@ -319,4 +356,12 @@ div.container {
   margin: 0 auto;
   padding: 10px;
   width: 100%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

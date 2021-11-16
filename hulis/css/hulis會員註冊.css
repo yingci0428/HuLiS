@@ -82,9 +82,9 @@ div.rcorners {
 
 .all_1 {
   /* border: 1px solid black; */
-  padding: 60px 14px;
   display: block;
   margin: 0px auto;
+  height: 100%;
 }
 
 /* FB GOOGLE */
@@ -141,7 +141,7 @@ button.google {
   height: 40px;
   padding: 0px;
   border-radius: 10px;
-  margin: 90px auto;
+  margin: 50px auto;
   /* text-align: center; */
 }
 
@@ -164,11 +164,14 @@ button.google {
 
 /* or */
 div.or {
-  padding: 16px 0px;
+  /* padding: 16px; */
+  margin: 20px;
   position: relative;
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;
+  height: 1px;
+  border-top: solid #acc0d8 2px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 1140px) {
@@ -179,7 +182,7 @@ div.or {
 /* 帳號密碼 */
 .log_in {
   /* border: 1px solid blue; */
-  margin-top: 20px;
+  margin-top: 30px;
   text-align: center;
 }
 
