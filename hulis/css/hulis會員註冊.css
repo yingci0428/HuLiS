@@ -82,7 +82,7 @@ div.rcorners {
 
 .all_1 {
   /* border: 1px solid black; */
-  padding: 60px 60px 14px;
+  padding: 60px 14px;
   display: block;
   margin: 0px auto;
 }
@@ -110,12 +110,14 @@ button.FB {
   margin-right: 50px;
   background: none;
   cursor: pointer;
+  /* display: block; */
 }
 
 button.google {
   border: none;
   background: none;
   cursor: pointer;
+  /* display: block; */
 }
 
 /* 註冊登入按鈕 */
@@ -163,12 +165,14 @@ div.or {
 .log_in {
   /* border: 1px solid blue; */
   margin-top: 20px;
+  text-align: center;
 }
 
 .email {
   /* border: 1px solid red; */
   font-size: 18px;
   font-weight: bold;
+  text-align: left;
 }
 
 #username {
@@ -184,6 +188,7 @@ div.or {
   font-size: 18px;
   font-weight: bold;
   margin-top: 20px;
+  text-align: left;
 }
 
 #password {
