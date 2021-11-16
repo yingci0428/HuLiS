@@ -88,48 +88,34 @@ div.rcorners {
 }
 
 /* FB GOOGLE */
-.sign_up {
-  /* border: 1px solid blue; */
-  display: inline-block;
-  width: 100%;
-  margin: 0;
-  /* padding: 30px; */
-}
-
-.FB {
-  display: inline-block;
-  margin: 0 auto;
-}
-
-img.FB_1 {
-  background-color: white;
-  width: 100%;
+.social_up {
+  text-align: center;
   display: block;
-  margin: 10px;
 }
 
-.google {
-  display: inline-block;
-  margin: 0 auto;
+a {
+  text-decoration: none;
 }
 
-img.google_1 {
+img.FB64 {
   background-color: white;
-  width: 100%;
-  display: block;
-  margin: 10px;
 }
 
-li {
-  list-style-type: none;
-  display: inline-block;
-  margin: 0 auto;
+img.google64 {
+  background-color: white;
 }
 
-ul.gallery {
-  padding: 0;
-  margin: 0 auto;
-  width: 100%;
+button.FB {
+  border: none;
+  margin-right: 50px;
+  background: none;
+  cursor: pointer;
+}
+
+button.google {
+  border: none;
+  background: none;
+  cursor: pointer;
 }
 
 /* 註冊登入按鈕 */
