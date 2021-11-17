@@ -238,7 +238,7 @@ div.container {
   display: block;
 }
 
-.dot_box {
+div.dot_box {
   width: 100%;
   max-width: 600px;
   margin: auto;
@@ -247,7 +247,7 @@ div.container {
 }
 
 @media screen and (min-width: 320px) and (max-width: 1140px) {
-  .dot_box {
+  div.dot_box {
     width: 100%;
     max-width: 500px;
   }
@@ -261,7 +261,7 @@ div.container {
 
 @media screen and (min-width: 320px) and (max-width: 1140px) {
   .dot_box_1 {
-    font-size: 12px;
+    font-size: 18px;
     font-weight: bold;
   }
 }

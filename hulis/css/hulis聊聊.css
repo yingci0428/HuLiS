@@ -161,6 +161,7 @@ div.container {
 .h1_1 {
   /* border: 1px solid blue; */
   display: inline-block;
+  /* width: 100%; */
   max-width: 600px;
 }
 
@@ -197,6 +198,15 @@ h2 {
   margin: 10px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  h1 {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}
 .member_icon {
   /* border: 1px solid black; */
 
@@ -204,6 +214,11 @@ h2 {
   margin-top: 10px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  .member_icon {
+    /* display: none; */
+  }
+}
 /* 框 */
 div.rcorners {
   /* border: 1px solid yellow; */

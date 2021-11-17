@@ -1,3 +1,5 @@
+@import url(./Hamburgers.css);
+
 * {
   box-sizing: border-box;
 }
@@ -9,17 +11,22 @@ body {
 header {
   list-style-type: none;
   margin: 0 auto;
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: #0dbf8c;
   position: sticky;
   top: 0;
   width: 100%;
-  min-width: 1200px;
+  max-width: 1200px;
   z-index: 5;
-  height: 60px;
 }
 
-ul {
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  header {
+    display: flex;
+  }
+}
+
+.header_log {
   /* border: 1px solid blue; */
   width: 1200px;
   margin: 0 auto;
@@ -41,7 +48,7 @@ ul {
   vertical-align: middle;
 }
 
-.active_2 {
+.active {
   /* display: block; */
   color: white;
   font-weight: bold;
@@ -51,16 +58,87 @@ ul {
   float: right;
 }
 
-.money_img {
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  .active {
+    display: none;
+  }
+}
+
+button.hamburger {
+  display: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  button.hamburger {
+    display: inline-block;
+  }
+}
+
+nav.main_nav {
+  /* border: 1px solid red; */
+  display: none;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  z-index: -1;
+}
+
+ul.nav_list {
+  /* border: 1px solid blue; */
+  background-color: #67d0cc;
+
+  list-style: none;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 68px;
+  padding: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  ul.nav_list > li {
+    display: block;
+  }
+}
+
+ul > li {
+  vertical-align: middle;
+  text-align: center;
+}
+ul > li > a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+}
+
+ul > li > a:hover {
+  color: #008183;
+  background-color: #afeeee;
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+}
+
+div.money_img {
   background-image: url("../image/薪資圖.gif");
   /* border: 1px solid red; */
   font-size: 0;
   width: 100%;
-  min-width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
   height: 360px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  div.money_img {
+    display: flex;
+  }
 }
 
 div.container {
@@ -69,12 +147,13 @@ div.container {
   background-repeat: no-repeat;
   width: 100%;
   margin: 0 auto;
-  min-width: 1200px;
+  max-width: 1200px;
 }
 
 .container_1 {
   /* border: 1px solid black; */
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -87,10 +166,11 @@ div.taiwan {
   max-width: 450px;
 }
 
-.svg {
+svg {
   /* border: 1px solid red; */
   display: inline-block;
   width: 100%;
+  max-width: 450px;
   margin: 0 auto;
 }
 
@@ -117,7 +197,14 @@ div.city {
   flex-direction: row;
   vertical-align: top;
   margin-top: 40px;
-  margin-left: 40px;
+  /* margin-left: 40px; */
+  width: 100%;
+  max-width: 500px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  div.city {
+  }
 }
 
 .rcorners1 {
@@ -126,7 +213,8 @@ div.city {
   background: #afeeee;
   padding: 20px;
   margin: 0 auto;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   display: block;
   opacity: 70%;
 }
@@ -144,7 +232,8 @@ div.city {
   background: #afeeee;
   /* padding: 20px; */
   margin: 0 auto;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   height: 485px;
   display: block;
 }
