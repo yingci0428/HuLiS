@@ -175,6 +175,12 @@ div.container {
   /* position: relative; */
 }
 
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  div.container {
+    padding: 0px;
+  }
+}
+
 /* 專屬護理人的平台 */
 .text_1 {
   /* border: 1px solid blue; */
@@ -304,6 +310,7 @@ div.container {
 }
 /* 小標題 */
 .hospital_tag {
+  /* border: 1px solid blue; */
   background: #67d0cc;
   border-radius: 30px;
   font-size: 24px;
@@ -312,6 +319,60 @@ div.container {
   padding: 5px;
   margin: 5px;
   display: inline-block;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  .hospital_tag {
+    font-size: 18px;
+  }
+  /* .hospital_5 {
+    display: none;
+  }
+  .hospital_6 {
+    display: none;
+  }
+  .hospital_7 {
+    display: none;
+  }
+  .hospital_8 {
+    display: none;
+  }
+  .hospital_9 {
+    display: none;
+  }
+  .hospital_10 {
+    display: none;
+  }
+  .hospital_11 {
+    display: none;
+  }
+  .hospital_12 {
+    display: none;
+  }
+  .hospital_13 {
+    display: none;
+  }
+  .hospital_14 {
+    display: none;
+  }
+  .hospital_15 {
+    display: none;
+  }
+  .hospital_16 {
+    display: none;
+  }
+  .hospital_17 {
+    display: none;
+  }
+  .hospital_18 {
+    display: none;
+  }
+  .hospital_19 {
+    display: none;
+  }
+  .hospital_20 {
+    display: none;
+  } */
 }
 
 /* 聊聊 */
@@ -332,6 +393,7 @@ div.container {
 
 /* 小標題 */
 .title_tag {
+  /* border: 1px solid blue; */
   background: #67d0cc;
   border-radius: 30px;
   font-size: 24px;
@@ -340,6 +402,28 @@ div.container {
   padding: 5px;
   margin: 5px;
   display: inline-block;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  .title_tag {
+    font-size: 18px;
+  }
+
+  /* .title_3 {
+    display: none;
+  }
+
+  .title_4 {
+    display: none;
+  }
+
+  .title_5 {
+    display: none;
+  }
+
+  .title_6 {
+    display: none;
+  } */
 }
 
 /* 好物 */
