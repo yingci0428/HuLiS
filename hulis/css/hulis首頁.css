@@ -294,6 +294,10 @@ div.dot_box {
   display: block;
 }
 
+div.box {
+  border: 1px solid blue;
+}
+
 .text_2 {
   /* border: 2px solid blue; */
   margin: 0 auto;
