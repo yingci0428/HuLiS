@@ -308,6 +308,26 @@ div.dot_box {
   padding: 10px;
   width: 100%;
 }
+
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  .hospital {
+    overflow-y: scroll;
+    width: 100%;
+    max-width: 800px;
+    height: 150px;
+  }
+  .hospital::-webkit-scrollbar {
+    border: none;
+    /* width: 10px;
+        height:  10px; */
+  }
+  .hospital::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    /* background-color: #0DBF8C; */
+    -webkit-box-shadow: inset 0 0 5px #0dbf8c;
+  }
+}
+
 /* 小標題 */
 .hospital_tag {
   /* border: 1px solid blue; */
@@ -325,54 +345,6 @@ div.dot_box {
   .hospital_tag {
     font-size: 18px;
   }
-  /* .hospital_5 {
-    display: none;
-  }
-  .hospital_6 {
-    display: none;
-  }
-  .hospital_7 {
-    display: none;
-  }
-  .hospital_8 {
-    display: none;
-  }
-  .hospital_9 {
-    display: none;
-  }
-  .hospital_10 {
-    display: none;
-  }
-  .hospital_11 {
-    display: none;
-  }
-  .hospital_12 {
-    display: none;
-  }
-  .hospital_13 {
-    display: none;
-  }
-  .hospital_14 {
-    display: none;
-  }
-  .hospital_15 {
-    display: none;
-  }
-  .hospital_16 {
-    display: none;
-  }
-  .hospital_17 {
-    display: none;
-  }
-  .hospital_18 {
-    display: none;
-  }
-  .hospital_19 {
-    display: none;
-  }
-  .hospital_20 {
-    display: none;
-  } */
 }
 
 /* 聊聊 */
@@ -389,6 +361,25 @@ div.dot_box {
   margin: 0 auto;
   padding: 10px;
   width: 100%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  .title {
+    overflow-y: scroll;
+    width: 100%;
+    max-width: 800px;
+    height: 150px;
+  }
+  .title::-webkit-scrollbar {
+    border: none;
+    /* width: 10px;
+          height:  10px; */
+  }
+  .title::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    /* background-color: #0DBF8C; */
+    -webkit-box-shadow: inset 0 0 5px #0dbf8c;
+  }
 }
 
 /* 小標題 */
@@ -408,22 +399,6 @@ div.dot_box {
   .title_tag {
     font-size: 18px;
   }
-
-  /* .title_3 {
-    display: none;
-  }
-
-  .title_4 {
-    display: none;
-  }
-
-  .title_5 {
-    display: none;
-  }
-
-  .title_6 {
-    display: none;
-  } */
 }
 
 /* 好物 */
