@@ -218,7 +218,7 @@ div.city {
   border: 2px solid #008080;
   border-radius: 30px 30px 0 0;
   background: #afeeee;
-  padding: 20px;
+  padding: 5px;
   margin: 0 auto;
   width: 100%;
   max-width: 400px;
@@ -226,11 +226,16 @@ div.city {
   opacity: 70%;
 }
 
-.city_1 {
+p.city_1 {
   margin: 0;
   font-size: 36px;
   text-align: center;
   font-weight: bold;
+}
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  p.city_1 {
+    font-size: 24px;
+  }
 }
 
 .rcorners2 {
@@ -241,7 +246,7 @@ div.city {
   margin: 0 auto;
   width: 100%;
   max-width: 400px;
-  height: 485px;
+  /* height: 100%; */
   display: block;
 }
 
@@ -261,19 +266,32 @@ div.city {
   color: black;
 }
 
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  .hp {
+    font-size: 18px;
+  }
+}
+
 .hp::-ms-expand {
   border: 1px solid #008080;
   display: none;
 }
 
 footer.footer {
+  /* border: 1px solid red; */
   background-color: #008080;
   background-repeat: no-repeat;
   width: 100%;
-  min-width: 1200px;
-  padding: 20px 0;
-  height: 150px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
   box-sizing: border-box;
   text-align: center;
   font-size: 12px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  footer.footer {
+    display: flex;
+  }
 }
