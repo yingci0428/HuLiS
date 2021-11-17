@@ -157,6 +157,12 @@ div.container {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 320px) and (max-width: 1140px) {
+  .container_1 {
+    display: flex;
+  }
+}
+
 div.taiwan {
   /* border: 2px solid blue; */
   display: inline-block;
@@ -202,10 +208,11 @@ div.city {
   max-width: 500px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 1140px) {
+/* @media screen and (min-width: 320px) and (max-width: 1140px) {
   div.city {
+    display: inline-block;
   }
-}
+} */
 
 .rcorners1 {
   border: 2px solid #008080;
