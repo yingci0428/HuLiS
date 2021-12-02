@@ -221,7 +221,7 @@ div.city {
   padding: 5px;
   margin: 0 auto;
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
   display: block;
   opacity: 70%;
 }
@@ -245,10 +245,31 @@ p.city_1 {
   /* padding: 20px; */
   margin: 0 auto;
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
   /* height: 100%; */
   display: block;
 }
+
+.rcorners3{
+  margin: 10px;
+}
+
+.rcorners_hp{
+  border: 1px solid #20b2ab;
+  width: 30%;
+  /* background-color: #20b2ab; */
+  background: rgb(103,208,204,0.5);
+  border-radius: 30px;
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+
 
 .hp {
   border: 1px solid #008080;
